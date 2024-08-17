@@ -28,7 +28,7 @@ Some operations you can bypass the menu to do quickly:
     .\ASM-ERSM.ps1 -operation "list" # This will give you a list of past backups
     Get-Help .\ASM-ERSM.ps1 # Shows help page for the script
 
-## Configuration
+## Configuration & Notes on Functionality
 
 Elden Ring save files are located in the `%APPDATA%\Elden Ring` directory. By default, the script will create a few items within this folder. 
 
