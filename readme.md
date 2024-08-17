@@ -1,6 +1,6 @@
 ﻿## AntiSandwichMan's Elden Ring Save Manager
 
-A PowerShell script which allows you to more easily make backups of your Elden Ring saves. 
+A PowerShell script which functions as a very basic save backup manager. Backup & restore your Elden Ring saves without having to worry about manually copying the save directory.
 
 ## Features
 
