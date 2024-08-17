@@ -14,7 +14,7 @@ A PowerShell script which allows you to more easily make backups of your Elden R
 
  Download the script, open PowerShell, and `Set-Location` into the directory where the script is located
  
- To view the interactive menu:
+ To view the interactive menu (recommended):
  
 
     .\ASM-ERSM.ps1
