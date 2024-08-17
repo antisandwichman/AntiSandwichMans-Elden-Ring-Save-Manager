@@ -238,7 +238,8 @@ if($operation -eq "backup"){
         Write-Host "3. Delete backup"
         Write-Host "4. List backups"
         Write-Host "5. Help"
-        Write-Host "6. Exit"
+        Write-Host "6. Add script to PATH (must be run from Admin PowerShell)"
+        Write-Host "7. Exit"
         $action = Read-Host -Prompt "Choice"
         switch($action){
             1{
@@ -270,6 +271,10 @@ if($operation -eq "backup"){
                 Wait-ForInput
             }
             6{
+                [Environment]::SetEnvironmentVariable("PATH", "$((Get-Location).Path);$env:Path", "Machine")
+                Wait-ForInput
+            }
+            7{
                 exit
             }
         }
